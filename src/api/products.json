@@ -1,0 +1,41 @@
+[
+	{
+		"id": 1,
+		"title": "Teléfono inteligente",
+		"description": "Un teléfono inteligente de última generación",
+		"price": 599.99,
+		"thumbnail": [
+			"ruta-imagen-3.jpg",
+			"ruta-imagen-4.jpg"
+		],
+		"code": "54321",
+		"stock": 10,
+		"status": true
+	},
+	{
+		"id": 2,
+		"title": "Televisor LED",
+		"description": "Un televisor LED de 55 pulgadas con resolución 4K",
+		"price": 899.99,
+		"thumbnail": [
+			"ruta-imagen-5.jpg",
+			"ruta-imagen-6.jpg"
+		],
+		"code": "67890",
+		"stock": 5,
+		"status": true
+	},
+	{
+		"id": 3,
+		"title": "Auriculares inalámbricos",
+		"description": "Auriculares inalámbricos con cancelación de ruido",
+		"price": 129.99,
+		"thumbnail": [
+			"ruta-imagen-7.jpg",
+			"ruta-imagen-8.jpg"
+		],
+		"code": "13579",
+		"stock": 20,
+		"status": true
+	}
+]
