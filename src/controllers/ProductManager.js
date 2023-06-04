@@ -45,7 +45,7 @@ class ProductManager {
   };
 
   // Agregamos un producto al arreglo de productos inicial
-  addProduct = async (title, description, price, thumbnail, code, stock) => {
+  addProduct = async (title, description, price, thumbnail, code, category, stock) => {
     // Leer el contenido del archivo
     const products = await this.getProducts();
 
@@ -56,6 +56,7 @@ class ProductManager {
       price,
       thumbnail: thumbnail || [],
       code,
+      category,
       stock,
       status: true,
     };

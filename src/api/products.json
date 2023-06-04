@@ -9,6 +9,7 @@
 			"ruta-imagen-4.jpg"
 		],
 		"code": "54321",
+		"category": "Electronica",
 		"stock": 10,
 		"status": true
 	},
@@ -22,6 +23,7 @@
 			"ruta-imagen-6.jpg"
 		],
 		"code": "67890",
+		"category": "Electronica",
 		"stock": 5,
 		"status": true
 	},
@@ -35,6 +37,7 @@
 			"ruta-imagen-8.jpg"
 		],
 		"code": "13579",
+		"category": "Electronica",
 		"stock": 20,
 		"status": true
 	}

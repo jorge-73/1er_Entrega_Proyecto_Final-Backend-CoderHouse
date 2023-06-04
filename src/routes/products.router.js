@@ -42,11 +42,11 @@ router.post("/", async (req, res) => {
     let {
       title,
       description,
-      code,
       price,
-      stock,
-      category,
       thumbnail,
+      code,
+      category,
+      stock,
       status,
     } = req.body;
 
@@ -64,10 +64,11 @@ router.post("/", async (req, res) => {
       price,
       thumbnail,
       code,
+      category,
       stock,
       (status = true)
     );
-    
+
     if (addProduct) {
       return res.status(201).json({
         message: "Producto agregado exitosamente",
@@ -86,7 +87,7 @@ router.put("/:pid", async (req, res) => {
     // Obtenemos el ID del producto de req.params
     const productId = parseInt(req.params.pid);
 
-     // Comprobamos si el ID del producto en el cuerpo de la solicitud es igual al ID en los parámetros de la ruta
+    // Comprobamos si el ID del producto en el cuerpo de la solicitud es igual al ID en los parámetros de la ruta
     if (req.body.id !== productId && req.body.id !== undefined) {
       return res
         .status(404)
